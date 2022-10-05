@@ -35,5 +35,4 @@ private:
 	Player m_player;
 	// ƒVƒ‡ƒbƒg
 	Shot m_shot[kShotMax];
-	//a
 };
