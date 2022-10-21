@@ -1,11 +1,11 @@
 #pragma once
 #include "Vec2.h"
 
-class ShotOmni
+class ShotMain
 {
 public:
-	ShotOmni();
-	virtual ~ShotOmni();
+	ShotMain();
+	virtual ~ShotMain();
 
 	void setHandle(int handle) { m_handle = handle; }
 

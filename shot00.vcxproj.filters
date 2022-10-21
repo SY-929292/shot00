@@ -36,11 +36,14 @@
     <ClCompile Include="shot.cpp">
       <Filter>ソース ファイル\Shot</Filter>
     </ClCompile>
-    <ClCompile Include="Shotomni.cpp">
+    <ClCompile Include="Shotomain.cpp">
       <Filter>ソース ファイル\Shot</Filter>
     </ClCompile>
     <ClCompile Include="Shotbace.cpp">
       <Filter>ソース ファイル\Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -62,8 +65,11 @@
     <ClInclude Include="shot.h">
       <Filter>ヘッダー ファイル\Shot</Filter>
     </ClInclude>
-    <ClInclude Include="Shotomni.h">
+    <ClInclude Include="Shotomain.h">
       <Filter>ヘッダー ファイル\Shot</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

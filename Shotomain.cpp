@@ -1,5 +1,5 @@
 #include "DxLib.h"
-#include "Shotomni.h"
+#include "Shotomain.h"
 #include"game.h"
 
 namespace
@@ -7,7 +7,7 @@ namespace
 
 }
 
-ShotOmni::ShotOmni()
+ShotMain::ShotMain()
 {
 	m_handle = -1;
 	m_pos.x = 0.0f;
@@ -19,25 +19,25 @@ ShotOmni::ShotOmni()
 	m_isExist = false;
 }
 
-ShotOmni::~ShotOmni()
+ShotMain::~ShotMain()
 {
 
 }
 
-void ShotOmni::start(Vec2 pos)
+void ShotMain::start(Vec2 pos)
 {
 	m_isExist = true;
 	m_pos = pos;
 }
 
 
-void ShotOmni::update()
+void ShotMain::update()
 {
 	if (!m_isExist)return;
 
 }
 // •\Ž¦
-void ShotOmni::draw()
+void ShotMain::draw()
 {
 	if (!m_isExist)return;
 	DrawGraphF(m_pos.x, m_pos.y, m_handle, true);
